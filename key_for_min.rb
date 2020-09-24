@@ -10,6 +10,5 @@ def key_for_min_value(name_hash)
       min[1] = value
     end
   end
-  return min[0] if min != nil
-  nil
+  min[0] if min != nil else nil 
 end
